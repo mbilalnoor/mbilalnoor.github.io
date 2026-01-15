@@ -1,90 +1,68 @@
 body {
-  margin: 0;
   font-family: "Segoe UI", Roboto, Arial, sans-serif;
-  color: #1f2937;
-  background: #ffffff;
+  scroll-behavior: smooth;
 }
 
-.container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 40px 20px;
+.navbar {
+  background: #0f172a;
 }
 
-.hero {
+.hero-section {
+  height: 100vh;
   background: linear-gradient(135deg, #0f172a, #1e3a8a);
   color: #ffffff;
 }
 
-.hero h1 {
-  font-size: 42px;
-  margin-bottom: 10px;
+.subtitle {
+  opacity: 0.85;
 }
 
-.hero h2 {
-  font-weight: 400;
-  margin-bottom: 10px;
+.section-padding {
+  padding: 80px 20px;
 }
 
-.tagline {
-  opacity: 0.9;
+.section-title {
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
-.contact {
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
+.skill-box {
+  background: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  font-weight: 500;
 }
 
-.contact a {
-  color: #93c5fd;
-  text-decoration: none;
+.timeline {
+  border-left: 3px solid #1e3a8a;
+  padding-left: 30px;
 }
 
-.section h3 {
-  font-size: 26px;
-  margin-bottom: 20px;
-}
-
-.section {
-  padding: 20px 0;
-}
-
-.section.alt {
-  background: #f8fafc;
-}
-
-.skills,
-.projects,
-.awards {
-  list-style: none;
-  padding-left: 0;
-}
-
-.skills li,
-.projects li,
-.awards li {
-  padding: 8px 0;
-}
-
-.job {
+.timeline-item {
   margin-bottom: 30px;
 }
 
-.duration {
+.timeline-item span {
   font-size: 14px;
   color: #6b7280;
 }
 
-footer {
+.project-card {
+  border: none;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+}
+
+.footer {
   background: #0f172a;
   color: #ffffff;
   text-align: center;
-}
-
-footer p {
-  margin: 0;
-  padding: 20px;
-  font-size: 14px;
+  padding: 20px 0;
 }
